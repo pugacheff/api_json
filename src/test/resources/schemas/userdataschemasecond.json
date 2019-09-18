@@ -1,0 +1,28 @@
+{
+"$schema": "http://json-shema.org/draft-04/schema#",
+"type":"object",
+"required": ["data"],
+"properties":{
+"data":{
+"type":"object",
+"required": ["id", "name", "year", "color", "pantone_value"],
+"properties":{
+"id":{
+"type":"integer"
+},
+"name":{
+"type":"string"
+},
+"year":{
+"type":"integer"
+},
+"color":{
+"type":"string"
+},
+"pantone_value":{
+"type":"string"
+}
+}
+}
+}
+}
